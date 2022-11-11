@@ -8,7 +8,7 @@ window.addEventListener("load", async () => {
 let isRunning = false;
 
 document.getElementById("formInput").oninput = async () => {
-    document.getElementById("blink").style.opacity = 1
+    document.getElementById("blink").style.opacity = 0
         await sleep(100);
         document.getElementById("blink").style.opacity = 0
         document.getElementById("doggo").src = "./pes.webp"
