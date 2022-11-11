@@ -14,7 +14,7 @@ document.getElementById("formInput").oninput = async () => {
         document.getElementById("doggo").src = "./pes.webp"
         if (document.getElementById("formInput").value === "") {
             document.getElementById("doggo").src = "./pes.png"
-            document.getElementById("blink").style.opacity = 1
+            document.getElementById("blink").style.opacity = 0
         }
 }
 
